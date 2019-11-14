@@ -13,8 +13,8 @@ class App extends React.Component {
       
           <Router>
             <div>
-              <Route path='/' component={Welcome} exact/> 
-              <Route path='/projects' component={projects}/>
+              <Route path={process.env.PUBLIC_URL + '/'} component={Welcome} exact/> 
+              <Route path={process.env.PUBLIC_URL + '/projects'} component={projects}/>
             </div>
           </Router>
 

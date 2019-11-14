@@ -2,7 +2,7 @@
   "name": "mysite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thelitvinova.github.io/portfolio/",
+  "homepage": "https://thelitvinova.github.io/my-portfolio/",
   "dependencies": {
     "jquery": "^3.4.1",
     "react": "^16.11.0",
